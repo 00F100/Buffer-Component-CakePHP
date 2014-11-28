@@ -13,7 +13,7 @@ $components = array('Buffer', ...);
 
 # UTILIZAR
 
-Inicia o buffer (4096 é o valor mínimo configurado no php.ini, sujeito a alteração).
+Inicia o buffer (4096 é o valor mínimo configurado na variável 'output_buffering' no php.ini, sujeito a alteração).
 
 $this->Buffer->init(4096);
 
