@@ -24,3 +24,7 @@ $this->Buffer->write($var);
 Finaliza o buffer
 
 $this->Buffer->end();
+
+========================
+
+Este component utiliza os métodos ob_start(), ob_flush(), flush(), ob_end_flush() do PHP.
